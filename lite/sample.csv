@@ -1,51 +1,11 @@
-id,name,category,region,value_usd,quantity,score,active,updated_at
-R100000,Summit SaaS 0,E-Commerce,Europe,1521.63,500,90.5,False,2025-09-10
-R100001,Apex Manufacturing 1,E-Commerce,Europe,2339.63,232,8.6,True,2025-05-11
-R100002,Peak Fintech 2,Education,MEA,4204.27,432,48.3,False,2024-12-02
-R100003,Alpha Fintech 3,Manufacturing,North America,3813.46,398,72.7,False,2025-11-27
-R100004,Lumen Healthcare 4,Retail,Europe,2369.28,160,46.0,False,2024-05-02
-R100005,Apex SaaS 5,SaaS,APAC,2650.07,380,27.4,False,2024-06-25
-R100006,Apex Healthcare 6,E-Commerce,Europe,1556.72,376,52.3,False,2025-08-19
-R100007,Nova Education 7,SaaS,MEA,4920.65,196,28.2,True,2025-09-14
-R100008,Apex Real Estate 8,Logistics,MEA,1679.03,352,68.8,True,2025-05-25
-R100009,Blue Real Estate 9,Energy,Europe,824.85,238,61.5,False,2024-10-24
-R100010,Peak SaaS 10,Real Estate,Europe,638.61,143,77.7,False,2025-02-04
-R100011,Vertex Manufacturing 11,Retail,North America,2320.55,481,48.4,False,2025-10-12
-R100012,Orbit SaaS 12,Retail,Europe,4598.94,14,70.1,False,2024-06-07
-R100013,Peak Logistics 13,Fintech,North America,2830.64,172,55.5,True,2025-10-01
-R100014,Lumen Logistics 14,Manufacturing,APAC,2019.6,170,40.7,False,2025-06-07
-R100015,Blue Real Estate 15,Healthcare,LATAM,605.01,397,2.4,True,2025-05-30
-R100016,Blue E-Commerce 16,Real Estate,LATAM,3636.78,453,85.7,True,2025-01-08
-R100017,Cedar Real Estate 17,Manufacturing,LATAM,364.52,109,96.4,False,2025-11-07
-R100018,Quantum Retail 18,Retail,APAC,2299.61,332,50.0,False,2024-01-28
-R100019,Quantum Healthcare 19,Real Estate,LATAM,3152.13,413,53.7,False,2024-06-24
-R100020,Bright Education 20,Logistics,LATAM,1698.13,180,62.3,True,2024-03-07
-R100021,Quantum E-Commerce 21,SaaS,Europe,1191.03,187,69.9,False,2025-06-16
-R100022,Prime Healthcare 22,Education,APAC,1031.97,234,57.4,True,2025-08-26
-R100023,Orbit Fintech 23,Manufacturing,MEA,3550.51,342,76.8,False,2025-06-14
-R100024,Prime E-Commerce 24,Energy,Europe,1449.58,147,12.6,True,2025-11-10
-R100025,Bright Energy 25,Energy,APAC,3571.68,62,82.6,False,2024-01-05
-R100026,Nova Real Estate 26,E-Commerce,North America,3272.1,142,67.2,True,2025-01-18
-R100027,Cedar SaaS 27,SaaS,LATAM,2888.89,431,62.3,True,2025-09-09
-R100028,Quantum SaaS 28,Manufacturing,MEA,1177.51,134,53.0,False,2024-04-10
-R100029,Apex Energy 29,Manufacturing,Europe,1250.02,99,63.7,True,2025-04-15
-R100030,Summit Energy 30,Logistics,North America,3110.78,437,38.4,False,2024-07-27
-R100031,Nova Retail 31,Logistics,North America,4075.4,201,10.9,True,2024-02-27
-R100032,Alpha E-Commerce 32,Logistics,North America,1957.46,7,61.4,False,2024-04-27
-R100033,Orbit Logistics 33,Real Estate,North America,1741.28,462,58.6,True,2025-01-24
-R100034,Blue Education 34,Education,LATAM,3643.0,302,91.1,False,2024-05-11
-R100035,Blue Retail 35,Real Estate,MEA,1939.31,72,69.2,False,2025-11-21
-R100036,Peak Energy 36,Logistics,Europe,2445.88,268,95.0,False,2025-10-29
-R100037,Vertex Logistics 37,Logistics,MEA,4444.52,461,17.0,False,2025-09-10
-R100038,North Fintech 38,E-Commerce,North America,3618.73,321,99.5,True,2025-04-09
-R100039,Lumen Fintech 39,Education,Europe,4208.01,93,62.7,False,2024-08-12
-R100040,Summit Energy 40,E-Commerce,Europe,4298.11,186,57.5,True,2024-07-24
-R100041,Vertex Energy 41,Retail,APAC,2257.87,46,99.5,True,2024-10-27
-R100042,Cedar Logistics 42,SaaS,Europe,3946.24,438,90.5,True,2025-08-03
-R100043,Quantum Energy 43,Logistics,Europe,1769.71,497,68.3,False,2025-06-13
-R100044,Cedar Healthcare 44,Fintech,APAC,4581.87,373,55.3,True,2025-03-16
-R100045,Apex Manufacturing 45,E-Commerce,Europe,3794.58,329,14.4,False,2025-02-19
-R100046,North Logistics 46,Manufacturing,North America,1485.31,87,43.1,False,2025-04-13
-R100047,Orbit SaaS 47,SaaS,APAC,4588.28,413,48.0,False,2024-07-27
-R100048,Summit Healthcare 48,Real Estate,LATAM,66.42,484,88.1,True,2025-01-27
-R100049,Blue Healthcare 49,Fintech,MEA,4753.29,410,59.4,True,2025-03-03
+lender,type,geography,min_loan,max_loan,max_ltv,property_types,signature_terms,official_url,status_stamp
+Fannie Mae DUS program (via DUS lenders),Agency CMBS (permanent),US multifamily,"$1,000,000 (typical)","$300,000,000 (per loan, program caps higher)",~80% (per DUS),Market-rate & affordable multifamily,30-yr amortizations; low fixed rates; non-recourse; annual CAP given via DUS lenders,https://multifamily.fanniemae.com/financing-options,compiled 2026-11
+Freddie Mac Optigo (via Optigo lenders),Agency CMBS (permanent),US multifamily,"$1,000,000 (typical)","$300,000,000",~80%,Multifamily (incl. student/seniors via programs),10-30 yr terms; forward commitments; non-recourse,https://mf.freddiemac.com/products/,compiled 2026-11
+HUD/FHA 221(d)(4) (via MAP lenders),Government insured (construction→perm),US multifamily,"$10,000,000 (practical minimum)","$500,000,000+",Up to ~87% (new construction market-rate),Multifamily new construction / substantial rehab,40-yr amortization; non-recourse; rate set at conversion,https://www.hud.gov/program_offices/housing/mfh/progdesc/purindx,compiled 2026-11
+HUD/FHA 223(f) (via MAP lenders),Government insured (acquisition/refi),US multifamily,"$1,000,000 (practical minimum)","$500,000,000+",Up to ~83.3%,Multifamily acquisition/refi,35-yr amortization; non-recourse; assumable,https://www.hud.gov/program_offices/housing/mfh/progdesc/purindx,compiled 2026-11
+Greystone,Agency / FHA lender,US multifamily,"$5,000,000 (typical)","$500,000,000+",Per program (DUS/FHA caps),Multifamily & healthcare (HUD),Top-5 agency lender; construction-to-perm packages,https://greyco.com/,compiled 2026-11
+Walker & Dunlop,Agency + broker + bridge,US multifamily,"$1,000,000 (typical)","$500,000,000+",Per program,Multifamily,Largest Fannie DUS lender by volume (recent years); bridge arm available,https://www.walkerdunlop.com/,compiled 2026-11
+Berkadia,Agency + broker,US multifamily,"$1,000,000 (typical)","$500,000,000+",Per program,Multifamily,Top-3 Fannie/Freddie seller-servicer; JV equity desks,https://berkadia.com/,compiled 2026-11
+CBRE Capital Markets (Debt & Structured Finance),Debt broker + lender,Global,"$10,000,000 (institutional typical)","$1,000,000,000+",Asset-dependent,All commercial types,Largest CRE debt broker; access to 100s of lenders,https://www.cbre.com/services/cbre-capital-markets,compiled 2026-11
+JLL Capital Markets,Debt broker,Global,"$10,000,000 (institutional typical)","$1,000,000,000+",Asset-dependent,All commercial types,Debt advisory + equity placement,https://www.us.jll.com/en/services/capital-markets,compiled 2026-11
+Eastdil Secured,Investment bank (debt & equity),Global (institutional),"$25,000,000 (typical)","$2,000,000,000+",Asset-dependent,"Institutional CBD office, retail, industrial, hotels",Elite institutional debt/equity placement,https://www.eastdil.com/,compiled 2026-11
